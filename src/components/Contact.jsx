@@ -16,7 +16,7 @@ const Contact = () => {
   const [notification, setNotification] = useState(null);
 
   // Initialize EmailJS
-  emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY');
+ emailjs.init(import.meta.env.VITE_EMAILJS_PUBLIC_KEY);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -32,17 +32,16 @@ const Contact = () => {
 
     try {
       // Send email using EmailJS
-      await emailjs.send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID || 'SERVICE_ID',
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID || 'TEMPLATE_ID',
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-          to_email: 'narayanaditya716@gmail.com',
-        }
-      );
+    await emailjs.send(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  {
+    name: formData.name,
+    email: formData.email,
+    subject: formData.subject,
+    message: formData.message,
+  }
+);
 
       setNotification({
         type: 'success',
