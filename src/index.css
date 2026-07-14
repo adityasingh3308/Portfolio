@@ -1,0 +1,165 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-primary-900 text-primary-50 antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  button {
+    @apply transition-all duration-300;
+  }
+
+  a {
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-accent-400 to-accent-500 bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-md bg-white/5 border border-white/10;
+  }
+
+  .shadow-glow {
+    @apply shadow-[0_0_30px_rgba(59,130,246,0.1)];
+  }
+
+  .shadow-glow-lg {
+    @apply shadow-[0_0_50px_rgba(59,130,246,0.2)];
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg bg-gradient-to-r from-accent-500 to-accent-400 text-primary-900 font-semibold hover:shadow-glow-lg transition-all;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg border-2 border-accent-500 text-accent-400 font-semibold hover:bg-accent-500 hover:text-primary-900 transition-all;
+  }
+
+  .card-glass {
+    @apply p-6 rounded-xl bg-secondary-900/40 border border-accent-500/10 hover:border-accent-500/30 transition-all;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl font-bold text-primary-50 mb-4;
+  }
+
+  .underline-accent {
+    @apply relative inline-block;
+  }
+
+  .underline-accent::after {
+    @apply absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-accent-500 to-accent-400 rounded-full;
+  }
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out forwards;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.6s ease-out forwards;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3B82F6;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #60A5FA;
+}
+
+/* Selection Styling */
+::selection {
+  background-color: #3B82F6;
+  color: #F8FAFC;
+}
+
+/* Focus Visible */
+:focus-visible {
+  @apply outline-none ring-2 ring-accent-500 ring-offset-2 ring-offset-primary-900;
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-300;
+}

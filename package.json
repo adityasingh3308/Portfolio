@@ -1,0 +1,34 @@
+{
+  "name": "premium-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .jsx,.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-icons": "^4.12.0",
+    "framer-motion": "^10.16.16",
+    "tailwindcss": "^3.4.1",
+    "emailjs-com": "^3.2.0",
+    "react-helmet-async": "^2.0.4",
+    "smooth-scroll-into-view-if-needed": "^1.1.33"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
