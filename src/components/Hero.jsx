@@ -100,7 +100,7 @@ const Hero = () => {
           {/* Subtitle */}
           <motion.div variants={itemVariants}>
             <p className="text-2xl md:text-3xl text-accent-400 font-semibold mb-2">
-              Software Developer
+              Full Stack Developer
             </p>
           </motion.div>
 
