@@ -10,7 +10,7 @@ export const projectsData = [
       "Tailwind CSS",
       "Framer Motion"
     ],
-    github: "https://github.com/adityasingh3308",
+    github: "https://github.com/adityasingh3308/Portfolio",
     demo: "https://adityanarayan-portfolio.vercel.app/"
   },
 
