@@ -4,7 +4,7 @@ export const projectsData = [
     title: "Portfolio Website",
     description:
       "A responsive personal portfolio built using React, Tailwind CSS, and Framer Motion with smooth animations.",
-    image: "/images/portfolio.png",
+    image: "portfolio_showup.png",
     technologies: [
       "React",
       "Tailwind CSS",
