@@ -11,7 +11,7 @@ export const projectsData = [
       "Framer Motion"
     ],
     github: "https://github.com/adityasingh3308",
-    //demo: "https://yourportfolio.vercel.app"
+    demo: "https://adityanarayan-portfolio.vercel.app/"
   },
 
   {
