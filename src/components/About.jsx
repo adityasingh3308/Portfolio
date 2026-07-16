@@ -70,12 +70,12 @@ const About = () => {
             {[
               {
                 title: "Passion",
-                description: "I'm passionate about creating solutions that solve real-world problems and improve user experiences.",
+                description: "Building practical software solutions that solve real-world problems through clean, efficient, and user-friendly applications. ",
                 icon: "🚀",
               },
               {
                 title: "Interests",
-                description: "Web Development, Cloud Technologies, AI/ML, Open Source, and Emerging Tech Trends.",
+                description: "Full Stack Development, Python, REST APIs, Open Source, Cloud Technologies, and Modern Web Development.",
                 icon: "⚡",
               },
               {

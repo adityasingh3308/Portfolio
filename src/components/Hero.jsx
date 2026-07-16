@@ -107,8 +107,7 @@ const Hero = () => {
           {/* Introduction */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-              I craft beautiful, performant web experiences with modern technologies. Passionate about
-              building scalable applications and solving complex problems through clean, innovative code.
+             I'm a Full Stack Developer with experience in React, JavaScript, Python, SQL, and REST APIs. I enjoy building scalable web applications and solving real-world problems through clean and efficient code. I'm continuously learning modern technologies and improving my development skills.
             </p>
           </motion.div>
 
@@ -120,9 +119,15 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => {
+                const el = document.querySelector('#contact');
+                if (el) {
+                  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+              }}
               className="px-8 py-4 bg-gradient-to-r from-accent-500 to-accent-400 text-primary-900 font-semibold rounded-lg hover:shadow-glow-lg transition-shadow duration-300"
             >
-              Hire Me
+              Let's Connect
             </motion.button>
             <motion.a
               whileHover={{ scale: 1.05 }}
