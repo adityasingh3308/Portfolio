@@ -60,10 +60,10 @@ export const projectsData = [
 
   {
   id: 5,
-  title: "Stock_analysis_tool",
+  title: "Stock Market Analyzer",
   description:
     "A simple Python tool that fetches stock data using FinancialModelingPrep and Yahoo Finance APIs. Enter a stock symbol to view the latest income statement and the last 5 days of price history. This project helps beginners learn API integration, JSON handling, and basic financial data analysis..",
-  image: "stockdata.png", // Replace with your project image
+  image: "stock.png", // Replace with your project image
   technologies: [
     "Python",
     "Financial Modeling Prep API",
@@ -72,7 +72,7 @@ export const projectsData = [
     "JSON"
   ],
   github: "https://github.com/adityasingh3308/Stock_analysis_tool.git", // Replace with your GitHub repository
-  // demo: "https://stock-analysis-tool.vercel.app"
+   demo: "https://adityanarayan-stock-market-analyzer.vercel.app/"
 },
 
 
