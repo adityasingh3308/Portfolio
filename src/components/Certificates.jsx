@@ -3,7 +3,10 @@ import { certificatesData } from "../data/certificates";
 
 const Certificates = () => {
   return (
-    <section id="certificates" className="py-20 px-4 sm:px-6 lg:px-8">
+    <section
+      id="certificates"
+      className="py-20 px-4 sm:px-6 lg:px-8 scroll-mt-24"
+    >
       <div className="max-w-6xl mx-auto">
 
         {/* Section Heading */}
@@ -90,22 +93,11 @@ const Certificates = () => {
               </p>
 
               {/* Date */}
-              <p className="text-primary-400 text-sm mb-5">
+              <p className="text-primary-400 text-sm mb-6">
                 {certificate.date}
               </p>
 
-              {/* Credential ID */}
-              <div className="mb-5">
-                <p className="text-primary-400 text-xs uppercase tracking-wider mb-1">
-                  Credential ID
-                </p>
-
-                <p className="text-primary-200 text-sm break-all">
-                  {certificate.credentialId}
-                </p>
-              </div>
-
-              {/* View Certificate */}
+              {/* View Certificate Button */}
               <a
                 href={certificate.credentialUrl}
                 target="_blank"
