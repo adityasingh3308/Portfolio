@@ -16,7 +16,7 @@ export const certificatesData = [
   {
     id: 3,
     name: "Data Analytics with GenAI",
-    organization: "Cisco Networking Academy",
+    organization: "Forage",
     date: "2026",
     credentialUrl: "/dataanalystgenai.pdf",
   },
