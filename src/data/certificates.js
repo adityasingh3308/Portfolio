@@ -36,7 +36,7 @@ export const certificatesData = [
   },
   {
     id: 6,
-    name: "Deloitte Certificate",
+    name: "Data analytics job simulation",
     organization: "Deloitte",
     date: "2026",
     credentialUrl: "/deloitte%20certificate.pdf",
@@ -47,5 +47,19 @@ export const certificatesData = [
     organization: "Cisco Networking Academy",
     date: "2026",
     credentialUrl: "/modernai.pdf",
+  },
+  {
+    id: 8,
+    name: "Technology Job Simulation",
+    organization: "Deloitte",
+    date: "2026",
+    credentialUrl: "/technologyjobsimulation.pdf",
+  },
+   {
+    id: 9,
+    name: "Technology Software Job Simulation",
+    organization: "Deloitte",
+    date: "2026",
+    credentialUrl: "/technologysoftware.pdf",
   },
 ];
