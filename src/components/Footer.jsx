@@ -34,10 +34,10 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
           >
             <h3 className="text-2xl font-bold bg-gradient-to-r from-accent-400 to-accent-500 bg-clip-text text-transparent mb-2">
-              DEV
+              JAVA DEVELOPER
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Building beautiful, performant web experiences with modern technologies and innovative solutions.
+              Turning ideas into practical, reliable applications using modern software development technologies..
             </p>
           </motion.div>
 

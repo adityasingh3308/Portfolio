@@ -40,7 +40,7 @@ const Navbar = () => {
             transition={{ delay: 0.2 }}
             className="text-2xl font-bold bg-gradient-to-r from-accent-500 to-accent-400 bg-clip-text text-transparent"
           >
-            DEV
+           ADITYA.DEV
           </motion.div>
 
           {/* Desktop Navigation */}

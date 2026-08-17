@@ -107,7 +107,7 @@ const Hero = () => {
           {/* Introduction */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-             I'm a Full Stack Developer with experience in React, JavaScript, Python, SQL, and REST APIs. I enjoy building scalable web applications and solving real-world problems through clean and efficient code. I'm continuously learning modern technologies and improving my development skills.
+             I'm a Full Stack Developer with experience in React, JavaScript, Java, SQL, and REST APIs. I enjoy building scalable web applications and solving real-world problems through clean and efficient code. I'm continuously learning modern technologies and improving my development skills.
             </p>
           </motion.div>
 

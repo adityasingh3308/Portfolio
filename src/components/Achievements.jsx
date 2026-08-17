@@ -6,38 +6,62 @@ const Achievements = () => {
   const [ref] = useInView();
 
   const achievementsData = [
-    {
-      id: 1,
-      title: "Coding Contests",
-      description: "Global Rank 156 in CodeForces | Top 100 in HackerRank DSA | Multiple hackathon wins",
-      icon: FiCode,
-      stats: "50+ Contests",
-      achievements: ["CodeForces", "HackerRank", "LeetCode", "AtCoder"],
-    },
-    {
-      id: 2,
-      title: "Hackathons",
-      description: "Winner of multiple prestigious hackathons with innovative projects and solutions",
-      icon: FiAward,
-      stats: "12+ Wins",
-      achievements: ["Hack MIT 2023", "AngelHack 2023", "DevFest 2023", "BuildIt 2023"],
-    },
-    {
-      id: 3,
-      title: "Open Source",
-      description: "Active contributor to major open-source projects with 500+ stars on personal repositories",
-      icon: FiGitBranch,
-      stats: "15+ Projects",
-      achievements: ["React Contrib", "Node.js", "Django", "Vue.js"],
-    },
-    {
-      id: 4,
-      title: "Speaking & Mentoring",
-      description: "Tech talks at conferences and mentoring junior developers in the community",
-      icon: FiUsers,
-      stats: "20+ Mentees",
-      achievements: ["JSConf", "ReactConf", "DevConf", "TechMeetups"],
-    },
+   {
+  id: 1,
+  title: "Technical Projects",
+  description:
+    "Built practical applications using Java, Spring Boot, SQL, Python, and modern web technologies.",
+  icon: FiCode,
+  stats: "5+ Projects",
+  achievements: [
+    "Java Applications",
+    "Spring Boot",
+    "SQL & MySQL",
+    "React & Vite",
+  ],
+},
+{
+  id: 2,
+  title: "Certifications",
+  description:
+    "Completed industry-recognized courses and certifications to strengthen my programming, data, and AI skills.",
+  icon: FiAward,
+  stats: "8+ Certifications",
+  achievements: [
+    "Cisco Networking Academy",
+    "Forage",
+    "Data Analytics",
+    "Modern AI",
+  ],
+},
+{
+  id: 3,
+  title: "Professional Development",
+  description:
+    "Completed virtual job simulations and practical training focused on software development and real-world engineering workflows.",
+  icon: FiGitBranch,
+  stats: "2+ Job Simulations",
+  achievements: [
+    "Technology Software Development",
+    "Deloitte",
+    "Software Development",
+    "Problem Solving",
+  ],
+},
+{
+  id: 4,
+  title: "Technical Skills",
+  description:
+    "Continuously developing my skills in backend development, databases, web technologies, and software engineering.",
+  icon: FiUsers,
+  stats: "10+ Technologies",
+  achievements: [
+    "Java & Spring Boot",
+    "SQL & MySQL",
+    "React & JavaScript",
+    "Git & GitHub",
+  ],
+},
   ];
 
   const containerVariants = {
