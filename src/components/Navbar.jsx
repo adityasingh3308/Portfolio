@@ -62,7 +62,7 @@ const Navbar = () => {
 
           {/* Social Icons */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="https://github.com/adityanarayan" target="_blank" rel="noopener noreferrer"
+            <a href="https://github.com/adityasingh3308" target="_blank" rel="noopener noreferrer"
               className="text-primary-50 hover:text-accent-400 transition-colors hover:scale-110 transform duration-300"
             >
               <FaGithub size={20} />
